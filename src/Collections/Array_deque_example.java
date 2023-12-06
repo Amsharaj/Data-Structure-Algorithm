@@ -12,6 +12,8 @@ public class Array_deque_example {
 		dq.add("Maggie");
 		dq.add("Rick");
 		dq.add("Daryl");
+		
+		
 		System.out.println("Elements in Deque: "+dq);
 		System.out.println("Removed Elements in Deque: "+dq.removeLast());
 		System.out.println("Head Elements in Deque: "+dq.element());
